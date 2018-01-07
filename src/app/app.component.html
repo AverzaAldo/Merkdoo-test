@@ -30,7 +30,7 @@
 
         <!--Tabla que muestra el listado -->
         <table class="table table-striped table-hover table-condensed">
-          
+
           <thead>
             <tr class="header">
             <th style="width:10%;">Nombre</th>
@@ -41,7 +41,7 @@
           </thead>
 
           <tbody>
-            <tr *ngFor="let product of products; let i = index">
+            <tr *ngFor="let product of products; let i = index"> <!-- repite por cada producto en el array -->
               <td>
                 {{ products[i][0] }}
               </td>
